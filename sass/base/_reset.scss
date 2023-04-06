@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html,
+h1, h2, h3, h4, h5, h6, p, a, div, span,
+ul, li, img, figure, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+h1, .h1 {
+    font-size: 34px;
+}
+
+h2, .h2 {
+    font-size: 30px;
+}
+
+h3, .h3 {
+    font-size: 26px;
+}
+
+h4, .h4 {
+    font-size: 24px;
+}
+
+h5, .h5 {
+    font-size: 22px;
+}
+
+h6, .h6 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

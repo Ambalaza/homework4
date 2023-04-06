@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+    &.gallery-flex {
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    &.justify-start {
+        justify-content: start;
+        gap: 3rem;
+    }
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-evenly;
+}
+

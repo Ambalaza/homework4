@@ -1,0 +1,14 @@
+.quantity-btn {
+    background-color: inherit;
+    border: none;
+    padding: 1rem;
+}
+
+.cart-btn {
+    background-color: #000;
+    color: #fff;
+    padding: .5rem 1rem;
+    &:focus {
+        color: #1F93FF;
+    }
+}

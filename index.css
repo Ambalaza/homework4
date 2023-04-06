@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ledger&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body, html,
+h1, h2, h3, h4, h5, h6, p, a, div, span,
+ul, li, img, figure, form, label, input, button {
+  margin: 0;
+  padding: 0;
+}
+
+h1, .h1 {
+  font-size: 34px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 26px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 22px;
+}
+
+h6, .h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  padding: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  gap: 8rem;
+  margin: 2rem auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex.gallery-flex {
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.flex.justify-start {
+  justify-content: start;
+  gap: 3rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-evenly;
+}
+
+.quantity-btn {
+  background-color: inherit;
+  border: none;
+  padding: 1rem;
+}
+
+.cart-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+.cart-btn:focus {
+  color: #1F93FF;
+}
+
+body {
+  font-family: "Lato", serif;
+}
+
+.nav {
+  font-family: "Ledger", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav .nav-link {
+  color: #000000;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.gray-txt {
+  color: #868584;
+}
+.gray-txt.line-through {
+  text-decoration: line-through;
+}
+
+.inline {
+  display: inline;
+}
+
+.border {
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.border-chosen {
+  border: 3px solid #000000;
+}
+
+.padding {
+  padding: 1rem;
+}
+.padding-pink {
+  background-color: #FBEBEB;
+}
+
+.mt {
+  margin-top: 0.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */

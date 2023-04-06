@@ -1,0 +1,90 @@
+@use './sass/abstracts/colors' as c;
+
+@use './sass/base/reset';
+@use './sass/base/typography' as f;
+
+@use './sass/layouts/header';
+@use './sass/layouts/grid';
+@use './sass/layouts/flex';
+
+@use './sass/components/buttons';
+
+body {
+    font-family: f.$body-font-fam;
+}
+
+.nav {
+    font-family: f.$header-font-fam;
+    font-size: f.$header-fs;
+    font-weight: f.$header-fw;
+
+    .nav-link {
+        color: c.$clr-black;
+    }
+}
+
+.fs-24 {
+    font-size: f.$fs-24;
+}
+
+.fs-36 {
+    font-size: f.$fs-36;
+}
+
+.fs-20 {
+    font-size: f.$fs-20;
+}
+
+.fs-16 {
+    font-size: f.$fs-16;
+}
+
+.fw-300 {
+    font-weight: f.$fw-300;
+}
+
+.fw-400 {
+    font-weight: f.$fw-400;
+}
+
+.fw-500 {
+    font-weight: f.$fw-500;
+}
+
+.fw-700 {
+    font-weight: f.$fw-700;
+}
+
+.gray-txt {
+    color: c.$gray-text;
+
+    &.line-through {
+        text-decoration: line-through;
+    }     
+}
+
+
+//p da bude inline izmedju + i - button//
+.inline {
+    display: inline;
+}
+
+//da li borders mogu da budu u posebnom fajlu?//
+.border {
+    border: 1px solid c.$clr-black;
+    border-radius: 8px;
+        &-chosen {
+            border: 3px solid c.$clr-black;
+        }
+}
+
+.padding {
+    padding: 1rem;
+    &-pink {
+        background-color: c.$accent-pink;
+    }
+}
+
+.mt {
+    margin-top: .5rem;
+}
